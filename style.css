@@ -1,0 +1,22 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: cornsilk;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+a {
+  font-size: 20px;
+}
+
+div.list {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
