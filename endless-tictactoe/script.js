@@ -247,8 +247,8 @@ window.addEventListener("resize", resizeListener, true);
 function clickListener(event) {
   update(event);
 }
-window.addEventListener("click", clickListener, true);
-window.addEventListener("tap", clickListener, true);
+window.addEventListener("click", clickListener);
+window.addEventListener("tap", clickListener);
 
 game = new Game();
 
