@@ -248,6 +248,7 @@ function clickListener(event) {
   update(event);
 }
 window.addEventListener("click", clickListener, true);
+window.addEventListener("tap", clickListener, true);
 
 game = new Game();
 
